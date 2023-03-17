@@ -60,18 +60,17 @@
   height: 30px;
   margin-top: 10px;
   margin-left: 18px;
- 
 }
-.mid > h1{
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 30px;
-    /* identical to box height */ 
-    text-align: start;
-    letter-spacing: 0.02em;
-    color: #000000;   
+.mid > h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+  text-align: start;
+  letter-spacing: 0.02em;
+  color: #000000;
 }
 
 .bottom {
@@ -79,38 +78,179 @@
   /* height: 45px; */
   width: 95%;
   margin: auto;
-   margin-top: 20px;
- 
+  margin-top: 20px;
 }
 
-.bottom >p{
-   text-align: start; 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 21px;
-letter-spacing: 0.02em;
+.bottom > p {
+  text-align: start;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
 
-color: #000000;
+  color: #000000;
 }
-
 
 /* ------  Mid  ----- */
 
-.technical-project{
-   border: 1px solid brown;
-   display: flex;
-   justify-content: space-between;  
+.technical-project {
+  border: 1px solid brown;
+  display: flex;
+  justify-content: space-between;
 }
 
-.left-tech{
-    border: 1px solid black;
-     width: 45%;
-     height: 580px;
+.left-tech {
+  border: 1px solid black;
+  width: 45%;
+  height: 580px;
+  margin-top: 50px;
 }
-.Right-tech{
-    border: 1px solid green;
-    width: 45%;
-    height: 580px;
+.Right-tech {
+  border: 1px solid green;
+  width: 45%;
+  height: 580px;
+  margin-top: 50px;
 }
+
+.Heading-top {
+  border: 1px solid red;
+  height: 50px;
+  background: #000000;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.Heading-top > p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+  margin-top: 10px;
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+}
+
+.Description{
+   /* height: 50px; */
+    width: 90%;
+    margin: auto;
+  /* border: 1px solid rebeccapurple; */
+  background: #FDFDFD;
+/* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -4px 4px rgba(0, 0, 0, 0.25); */
+border-radius: 15p
+}
+
+.Description > p{
+  font-family: 'Open Sans';
+font-style: normal;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0.02em;
+ text-align: start;
+color: #000000;
+margin-top: 20px;
+}
+
+.Description>p span{
+  font-weight: 600;
+font-size: 16px;
+}
+
+.image-section{
+  border: 1px solid black;
+   
+   margin-top: 50px;
+}
+.image-section >img{
+  height:291px;  
+}
+
+.thred{
+  border: 1px solid gray;
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+color: #000000;
+ display: flex;
+  justify-content: space-around;
+border: 0.1px solid rgba(0, 0, 0, 0.4);
+}
+
+.arrow{
+  margin: auto;
+
+}
+
+.thread{
+  margin: auto;
+
+}
+
+/* ---------------------------- */
+
+.SubHeadings{
+  border: 1px solid red;
+
+  display: flex;
+   justify-content: space-around;
+}
+
+.sub{
+  border: 1px solid black;
+  height: 25px;
+  width: 170px;
+  background: #FFFFFF;
+  opacity: 0.5;
+  border: 0.1px solid #333333;
+  box-shadow: 1px 3px 8px rgba(18, 17, 17, 0.25);
+  border-radius: 5px
+}
+.sub >h1{
+  text-align: start;
+  margin-left: 10px;
+}
+
+.Enter{
+  width: 170px;
+  border: 1px solid red;
+  background: #FFFFFF;
+  height: 70px;
+  opacity: 0.5;
+  border: 0.1px solid #333333;
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  background: #FFFFFF;
+  
+}
+
+.Enter > h1{
+   text-align: start;
+   margin-left: 10px;
+}
+
+/* ----------------- */
+
+ .Icons{
+  border: 1px solid black;
+  display: flex;
+   justify-content: flex-end;
+   gap: 10px;
+   margin-top: 50px;
+ }
+
+ .allicons{
+  border: 1px solid gray;
+  display: flex;
+  margin-right: 150px;
+  gap: 20px;
+ }
+
+ .cion{
+  font-size: 1.5rem;
+ }
