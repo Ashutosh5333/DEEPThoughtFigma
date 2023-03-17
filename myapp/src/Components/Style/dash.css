@@ -1,0 +1,116 @@
+.Container-Dashboard {
+  border: 1px solid red;
+}
+
+.techline {
+  /* border: 2px solid blue; */
+  height: 42px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.left {
+  /* border: 2px solid blue; */
+  width: 466px;
+  height: 42px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 42px;
+  /* identical to box height */
+
+  letter-spacing: 0.02em;
+
+  color: #0029ff;
+}
+
+.Right {
+  /* border: 2px solid blue; */
+  height: 42px;
+
+  background: #0029ff;
+  border-radius: 10px;
+  width: 132px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+  color: #ffffff;
+}
+
+.Right > h1 {
+  padding: 10px 20px;
+}
+
+.Exploredata {
+  border: 1px solid black;
+  background: #e9ecef;
+  margin-top: 20px;
+  border-radius: 5px;
+  height: 135px;
+}
+
+.mid {
+  /* border: 1px solid yellow; */
+  width: 375px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 18px;
+ 
+}
+.mid > h1{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */ 
+    text-align: start;
+    letter-spacing: 0.02em;
+    color: #000000;   
+}
+
+.bottom {
+  /* border: 1px solid red; */
+  /* height: 45px; */
+  width: 95%;
+  margin: auto;
+   margin-top: 20px;
+ 
+}
+
+.bottom >p{
+   text-align: start; 
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: 0.02em;
+
+color: #000000;
+}
+
+
+/* ------  Mid  ----- */
+
+.technical-project{
+   border: 1px solid brown;
+   display: flex;
+   justify-content: space-between;  
+}
+
+.left-tech{
+    border: 1px solid black;
+     width: 45%;
+     height: 580px;
+}
+.Right-tech{
+    border: 1px solid green;
+    width: 45%;
+    height: 580px;
+}

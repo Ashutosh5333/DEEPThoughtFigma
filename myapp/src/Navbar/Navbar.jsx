@@ -5,6 +5,7 @@ import {BsTools} from "react-icons/bs"
 import {IoIosNotificationsOutline} from "react-icons/io"
 import {CgProfile} from "react-icons/cg"
 
+
 const Navbar = () => {
 
   return (
@@ -12,7 +13,7 @@ const Navbar = () => {
      <nav className='Continer-nav'>
 
         <div className='nav-icon'>
-            <img src="https://deepthought.education/assets/images/logo/logo.svg" alt="image"/>
+            <img src="https://deepthought.education/assets/images/logo/logo.svg" alt="deep"/>
         </div>
 
          <div className='Nav-icons'> 

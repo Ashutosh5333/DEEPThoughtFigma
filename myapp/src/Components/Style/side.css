@@ -1,0 +1,22 @@
+.Side-container {
+  border: 1px solid black;
+
+}
+
+.small {
+  border: 1px solid black;
+  background-color: black;
+  height: 50px;
+}
+
+.large {
+  border: 1px solid grey;
+  height: 692px;
+  background: #fdfdfd;
+}
+
+.one{
+  border: 1px solid rgb(17, 17, 166);
+  width: 80px;
+  height: 80px;
+}

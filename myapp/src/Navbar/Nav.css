@@ -18,11 +18,11 @@
 }
 
 .nav-icon {
-    position: absolute;
-    width: 311px;
-    height: 49px;
-    left: 83px;
-    top: 20px;
+  position: absolute;
+  width: 311px;
+  height: 49px;
+  left: 83px;
+  top: 20px;
 }
 
 /* --------- Nav icons 2-------- */
@@ -34,32 +34,31 @@
   left: 70%;
   top: 20px;
   display: flex;
-    justify-content: space-evenly;
-   gap: 10px;
-
-}
-.nav-home{
-    /* border: 2px solid rgb(214, 37, 149); */
-     width: 30px;
-     height: 32.37px;
-     border-radius: 20px;
-     background-color:  #3683F0;
-font-family: 'Font Awesome 5 Free';
-font-style: normal;
-font-weight: 900;
-font-size: 15px;
-line-height: 17px;
-letter-spacing: 0.02em;
-color: #FFFFFF;
+  justify-content: space-evenly;
+  gap: 10px;
 }
 
-.home{
-  margin-top: 8px;
+.nav-home {
+  width: 30px;
+  height: 32.37px;
+  border-radius: 20px;
+  background-color: #3683f0;
+  font-family: "Font Awesome 5 Free";
   font-style: normal;
-font-weight: 900;
-font-size: 15px;
-line-height: 17px;
-letter-spacing: 0.02em;
-color: #FFFFFF;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
+.home {
+  margin-top: 8px;
+  margin-left: 6px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
