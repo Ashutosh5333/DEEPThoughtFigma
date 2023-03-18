@@ -90,12 +90,11 @@
   justify-content: space-between;
 }
 
-
 .left-tech {
   width: 45%;
   height: 580px;
   margin-top: 50px;
-  background: #FDFDFD;
+  background: #fdfdfd;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
 }
@@ -104,17 +103,17 @@
   width: 45%;
   height: 580px;
   margin-top: 50px;
-  background: #FDFDFD;
+  background: #fdfdfd;
   border-radius: 15px;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .Heading-top {
   height: 50px;
   background: #000000;
   border-radius: 15px 15px 0px 0px;
-   display: flex;
-   justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .Heading-top > p {
@@ -128,23 +127,21 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -4px 4px rgba(0, 0, 0, 0.25);
   color: #ffffff;
 }
 
-.elipis{
-    border-radius: 50px;
-    width: 30px;
-    height: 30px;
-    background-color: #fff;
-    margin-top: 10px;
-    margin-left: 10px;
+.elipis {
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
-.elipis > p{
-   font-size: 1rem;
-    font-weight: 600;
-    margin-top: -3px;
-    padding: 5px;
-   
+.elipis > p {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: -3px;
+  padding: 5px;
 }
-
 
 .Description {
   width: 90%;
@@ -285,73 +282,169 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -4px 4px rgba(0, 0, 0, 0.25);
   padding: 5px;
 }
 
-.subbut{
+.subbut {
   /* border: 1px solid red; */
   display: flex;
   justify-content: flex-start;
   margin-left: 20px;
 }
 
-.subbutton{
-background: #0029FF;
-margin-top: 10px;
-border-radius: 10px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 14px;
-padding: 10px 20px;
-color: #FFFFFF;
-
+.subbutton {
+  background: #0029ff;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  padding: 10px 20px;
+  color: #ffffff;
 }
 
-    /* ------------ */
+/* ------------ */
 
-.summary{
-  border: 1px solid red;
+.summary {
+  /* border: 1px solid red; */
   width: 90%;
   height: 108px;
   margin: auto;
   margin-top: 20px;
-  background: #FFFFFF;
-opacity: 0.5;
-border: 0.1px solid #333333;
-box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.25);
-border-radius: 10px;
+  background: #ffffff;
+  opacity: 0.5;
+  border: 0.1px solid #333333;
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
 }
 
-.summarytext{
- height: 25px;
- background: rgba(0, 0, 0, 0.05);
- opacity: 0.8;
+.summarytext {
+  height: 25px;
+  background: rgba(0, 0, 0, 0.05);
+  opacity: 0.8;
 
- box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.25);
- border-radius: 10px;
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
 }
 
-.summarytext > h1{
-  font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 16px;
- text-align: start;
-color: #000000;
-margin-left: 10px;
-margin-top: 5px;
+.summarytext > h1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: start;
+  color: #000000;
+  margin-left: 10px;
+  margin-top: 5px;
 }
 
-.textenter{
-  background: #FFFFFF;
+.textenter {
+  background: #ffffff;
   opacity: 0.5;
   height: 75px;
   box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
 }
 
-.textenter >h1{
+.textenter > h1 {
   text-align: start;
   margin-left: 10px;
 }
 
+/* --------------- second line -----------------  */
+
+.Titlecon {
+  /* border: 1px solid red; */
+  margin-top: 10px;
+  height: 400px;
+}
+
+.Titlecon > h1 {
+  text-align: start;
+  margin-left: 15px;
+  margin-top: 20px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.title {
+  /* border: 1px solid gray; */
+  width: 90%;
+  height: 43px;
+  margin: auto;
+  background: #fcfbfb;
+  box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+
+.title-2 {
+  /* border: 1px solid gray; */
+  width: 90%;
+  height: 82px;
+  margin: auto;
+  background: #fcfbfb;
+  box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+
+.filetitle {
+  /* border: 1px solid red; */
+  height: 38px;
+}
+
+.filechild {
+  /* border: 1px solid black; */
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.filechild > p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+
+  color: #616161;
+}
+
+.paragrapgh {
+  /* border: 1px solid red; */
+  height: 40px;
+}
+
+.paragraphchild {
+  /* border: 1px solid black; */
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.paragraphchild > p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  color: #616161;
+}
+
+.lastTitle{
+   /* border: 1px solid red; */
+   width: 90%;
+   height: 142px;
+   margin: auto;
+   background: #FCFBFB;
+box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.15);
+border-radius: 0px;
+}

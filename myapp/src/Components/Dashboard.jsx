@@ -2,9 +2,17 @@ import React from "react";
 import "./Style/dash.css";
 import first from "../Assets/first.png";
 import { IoIosArrowUp } from "react-icons/io";
-import { BsFillLightbulbFill, BsFillQuestionSquareFill } from "react-icons/bs";
+import {
+  BsArrow90DegLeft,
+  BsArrow90DegRight,
+  BsFillLightbulbFill,
+  BsFillQuestionSquareFill,
+} from "react-icons/bs";
+import {BiDotsHorizontalRounded} from "react-icons/bi";
 import { RiMessage2Fill } from "react-icons/ri";
 import { FiChevronDown } from "react-icons/fi";
+
+
 
 const Dashboard = () => {
   return (
@@ -41,12 +49,11 @@ const Dashboard = () => {
 
         <div className="technical-project">
           <div className="left-tech">
-
             <div className="Heading-top">
               <p> Technical Project Management </p>
-               <div className="elipis">
-                     <p> i </p> 
-               </div>
+              <div className="elipis">
+                <p> i </p>
+              </div>
             </div>
 
             <div className="Description">
@@ -65,8 +72,8 @@ const Dashboard = () => {
             <div className="Heading-top">
               <p> Threadbuild </p>
               <div className="elipis">
-                     <p> i </p> 
-               </div>
+                <p> i </p>
+              </div>
             </div>
             <div className="Description">
               <p>
@@ -106,11 +113,11 @@ const Dashboard = () => {
 
             <div className="Icons">
               <div className="iconshome">
-                <BsFillLightbulbFill   className="homecs"/>
-                <RiMessage2Fill   className="homecs"/>
-                <BsFillQuestionSquareFill   className="homecs"/>
+                <BsFillLightbulbFill className="homecs" />
+                <RiMessage2Fill className="homecs" />
+                <BsFillQuestionSquareFill className="homecs" />
                 <svg
-                //  className="homecs"
+                  //  className="homecs"
                   width="25"
                   height="38"
                   viewBox="0 0 20 18"
@@ -125,40 +132,134 @@ const Dashboard = () => {
               </div>
 
               <div className="box">
-               <div>
-                <h1> Select Categ </h1>
-               </div>
-               <div>
-                 <h1>  <FiChevronDown /> </h1> 
-               </div>
+                <div>
+                  <h1> Select Categ </h1>
+                </div>
+                <div>
+                  <h1>
+                    {" "}
+                    <FiChevronDown />{" "}
+                  </h1>
+                </div>
               </div>
 
               <div className="box">
-               <div>
-                <h1> Select Process </h1>
-               </div>
-               <div>
-                 <h1>  <FiChevronDown /> </h1> 
-               </div>
+                <div>
+                  <h1> Select Process </h1>
+                </div>
+                <div>
+                  <h1>
+                    {" "}
+                    <FiChevronDown />{" "}
+                  </h1>
+                </div>
+              </div>
+            </div>
+
+            <div className="subbut">
+              <button className="subbutton"> + Sub-thread </button>
+            </div>
+
+            <div className="summary">
+              <div className="summarytext">
+                <h1> Summary for Thread A </h1>
+              </div>
+              <div className="textenter">
+                <h1> Enter Text here </h1>
+              </div>
+            </div>
+          </div>
+
+          {/* ------------------- */}
+        </div>
+
+        <div className="technical-project">
+          <div className="left-tech">
+            <div className="Heading-top">
+              <p> Structure your pointers </p>
+              <div className="elipis">
+                <p> i </p>
+              </div>
+            </div>
+
+            <div className="Description">
+              <p>
+                <span> Description : </span>Write a 300 - 400 word article from
+                your thread . Publish your understanding and showcase your
+                understanding to the entire world
+              </p>
+            </div>
+            <div className="Titlecon">
+              <h1> Title </h1>
+              <div className="title"></div>
+
+              <h1> Content </h1>
+              <div className="title-2">
+                <div className="filetitle">
+                  <div className="filechild">
+                    <p>File</p>
+                    <p>Edit</p>
+                    <p>View</p>
+                    <p>Format</p>
+                    <p>Tools</p>
+                    <p>Table</p>
+                    <p>Help</p>
+                  </div>
+                </div>
+                <div className="paragrapgh">
+                  <div className="paragraphchild">
+                    <p>
+                      {" "}
+                      <BsArrow90DegLeft />{" "}
+                    </p>
+                    <p>
+                      {" "}
+                      <BsArrow90DegRight />{" "}
+                    </p>
+                    <p>
+                      {" "}
+                      <svg
+                        width="19"
+                        height="19"
+                        viewBox="0 0 19 19"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M11.5961 1.8999H17.0995M17.0995 1.8999V7.40335M17.0995 1.8999L11.5961 7.40335M7.40397 17.0999H1.90052M1.90052 17.0999V11.5964M1.90052 17.0999L7.60052 11.3999M17.1 11.596V17.0994M17.1 17.0994H11.5966M17.1 17.0994L11.5966 11.596M1.90002 7.40385L1.90002 1.9004M1.90002 1.9004L7.40348 1.9004M1.90002 1.9004L7.60002 7.6004"
+                          stroke="#616161"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </p>
+                    <p> Paragraph </p>
+                    <p> <BiDotsHorizontalRounded /> </p>
+                  </div>
+                </div>
+              </div>
+              <div className="lastTitle">
+
               </div>
 
             </div>
-          
-           <div className="subbut">
-           <button className="subbutton"> + Sub-thread  </button>
-           </div>
-           
-           <div className="summary">
-             <div className="summarytext">  
-             <h1> Summary for Thread A  </h1>
-             </div>
-             <div className="textenter" >
-             <h1> Enter Text here </h1>
-             </div>
+          </div>
 
-           </div>
-
-
+          <div className="Right-tech">
+            <div className="Heading-top">
+              <p> Threadbuild </p>
+              <div className="elipis">
+                <p> i </p>
+              </div>
+            </div>
+            <div className="Description">
+              <p>
+                {" "}
+                <span> Description : </span> Watch the video and threadbuild,
+                and jot out key threads while watching the video
+              </p>
+            </div>
           </div>
 
           {/* ------------------- */}
