@@ -64,6 +64,9 @@ const Dashboard = () => {
           <div className="Right-tech">
             <div className="Heading-top">
               <p> Threadbuild </p>
+              <div className="elipis">
+                     <p> i </p> 
+               </div>
             </div>
             <div className="Description">
               <p>

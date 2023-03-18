@@ -13,9 +13,11 @@ const Side = () => {
 
       <div className='large'>
          
-          <dive className="one">
-            1
+          <dive className="BOXX">
+            <p> 1 </p>
           </dive>
+          
+          
 
       </div>
 
