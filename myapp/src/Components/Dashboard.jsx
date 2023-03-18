@@ -4,9 +4,7 @@ import first from "../Assets/first.png";
 import { IoIosArrowUp } from "react-icons/io";
 import { BsFillLightbulbFill, BsFillQuestionSquareFill } from "react-icons/bs";
 import { RiMessage2Fill } from "react-icons/ri";
-import {FiChevronDown} from "react-icons/fi";
-
-
+import { FiChevronDown } from "react-icons/fi";
 
 const Dashboard = () => {
   return (
@@ -43,9 +41,14 @@ const Dashboard = () => {
 
         <div className="technical-project">
           <div className="left-tech">
+
             <div className="Heading-top">
               <p> Technical Project Management </p>
+               <div className="elipis">
+                     <p> i </p> 
+               </div>
             </div>
+
             <div className="Description">
               <p>
                 {" "}
@@ -99,15 +102,14 @@ const Dashboard = () => {
             </div>
 
             <div className="Icons">
-
-              <div className="allicons">
-                <BsFillLightbulbFill  className="cion"/>
-                <RiMessage2Fill  className="cion"/>
-                <BsFillQuestionSquareFill  className="cion"/>
+              <div className="iconshome">
+                <BsFillLightbulbFill   className="homecs"/>
+                <RiMessage2Fill   className="homecs"/>
+                <BsFillQuestionSquareFill   className="homecs"/>
                 <svg
-                 className="cion"
-                  width="20"
-                  height="18"
+                //  className="homecs"
+                  width="25"
+                  height="38"
                   viewBox="0 0 20 18"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -119,20 +121,39 @@ const Dashboard = () => {
                 </svg>
               </div>
 
-            <div className="thred">
-              <div className="thread">
-                <p> Select Categ </p>
+              <div className="box">
+               <div>
+                <h1> Select Categ </h1>
+               </div>
+               <div>
+                 <h1>  <FiChevronDown /> </h1> 
+               </div>
               </div>
-              <div className="arrow">
-                <FiChevronDown />
+
+              <div className="box">
+               <div>
+                <h1> Select Process </h1>
+               </div>
+               <div>
+                 <h1>  <FiChevronDown /> </h1> 
+               </div>
               </div>
-            </div>
-
-
 
             </div>
+          
+           <div className="subbut">
+           <button className="subbutton"> + Sub-thread  </button>
+           </div>
+           
+           <div className="summary">
+             <div className="summarytext">  
+             <h1> Summary for Thread A  </h1>
+             </div>
+             <div className="textenter" >
+             <h1> Enter Text here </h1>
+             </div>
 
-
+           </div>
 
 
           </div>
