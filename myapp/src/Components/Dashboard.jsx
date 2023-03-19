@@ -11,6 +11,10 @@ import {
 import {BiDotsHorizontalRounded} from "react-icons/bi";
 import { RiMessage2Fill } from "react-icons/ri";
 import { FiChevronDown } from "react-icons/fi";
+import {data} from "./data.js"
+ 
+const task = data[0].tasks[0].assets
+// console.log("data",task)
 
 
 
@@ -46,16 +50,16 @@ const Dashboard = () => {
         </div>
 
         {/* --------------------------- */}
-
-        <div className="technical-project">
+         
+               <div className="technical-project">
           <div className="left-tech">
+         
             <div className="Heading-top">
               <p> Technical Project Management </p>
               <div className="elipis">
                 <p> i </p>
               </div>
             </div>
-
             <div className="Description">
               <p>
                 {" "}
@@ -63,6 +67,8 @@ const Dashboard = () => {
                 Specific Accountable Staggering Approach{" "}
               </p>
             </div>
+            
+
             <div className="image-section">
               <img src={first} alt="firstimag" />
             </div>
@@ -260,11 +266,45 @@ const Dashboard = () => {
                 and jot out key threads while watching the video
               </p>
             </div>
+          
+          <div className="midcontainer">
+               <div className="intro">
+                 <p>   <IoIosArrowUp /> </p>
+                 <p> Introduction </p>
+               </div>
+
+               <div className="description-1">
+                <p>  The 4SA Method , How to bring a idea into progress ?</p>
+                  <button className="seemore">See More </button> 
+               </div>
+
+               <div className="intro-2">
+                 <p>   <IoIosArrowUp /> </p>
+                 <p> Thread  A </p>
+               </div>
+ 
+               <div className="description-2">
+                <p> How are you going to develop your stratergy ? Which method are you going to use to develop a stratergy ? What if the project is lengthy?</p>
+                  <button className="seemore1">See More </button> 
+               </div>
+
+                <div className="example">
+                  <h1> Example 1</h1>
+                </div>   
+                <div className="example2">
+                  <h1> You have a concept , How will you put into progress ?</h1>
+                </div>           
+
+          </div>
+
           </div>
 
           {/* ------------------- */}
         </div>
-      </div>
+          
+          </div>
+
+
     </>
   );
 };

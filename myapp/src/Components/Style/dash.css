@@ -1,6 +1,6 @@
-.Container-Dashboard {
+/* .Container-Dashboard {
   border: 1px solid red;
-}
+} */
 
 .techline {
   height: 42px;
@@ -39,7 +39,7 @@
 }
 
 .Exploredata {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   background: #e9ecef;
   margin-top: 20px;
   border-radius: 5px;
@@ -85,7 +85,7 @@
 /* ------  Mid  ----- */
 
 .technical-project {
-  border: 1px solid brown;
+  /* border: 1px solid brown; */
   display: flex;
   justify-content: space-between;
 }
@@ -106,6 +106,10 @@
   background: #fdfdfd;
   border-radius: 15px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.customdescription {
+  border: 1px solid red;
 }
 
 .Heading-top {
@@ -176,7 +180,10 @@
 }
 
 .thred {
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
+  margin-top: 20px;
+  height: 40px;
+  background: rgba(254, 255, 192, 0.2);
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
@@ -207,30 +214,34 @@
 }
 
 .sub {
-  border: 1px solid black;
   height: 35px;
-  width: 100%;
+  width: 200px;
   background: #ffffff;
   opacity: 0.5;
-  border: 0.1px solid #333333;
   box-shadow: 1px 3px 8px rgba(18, 17, 17, 0.25);
   border-radius: 5px;
 }
 
 .sub > h1 {
   text-align: start;
-  margin-left: 10px 20px;
   margin-bottom: 40px;
-  padding: 10px 20px;
+  margin-left: 10px;
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: .5px;
+margin-left: 10px;
+margin-top: 20px;
+color: #000000;
 }
 
 .Enter {
   width: 100%;
-  border: 1px solid red;
   background: #ffffff;
   height: 70px;
   opacity: 0.5;
-  border: 0.1px solid #333333;
   box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
   background: #ffffff;
@@ -377,6 +388,7 @@
   width: 90%;
   height: 43px;
   margin: auto;
+  margin-top: 20px;
   background: #fcfbfb;
   box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
@@ -387,6 +399,7 @@
   width: 90%;
   height: 82px;
   margin: auto;
+  margin-top: 20px;
   background: #fcfbfb;
   box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
@@ -439,12 +452,183 @@
   color: #616161;
 }
 
-.lastTitle{
-   /* border: 1px solid red; */
-   width: 90%;
-   height: 142px;
-   margin: auto;
-   background: #FCFBFB;
-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.15);
-border-radius: 0px;
+.lastTitle {
+  /* border: 1px solid red; */
+  width: 90%;
+  height: 142px;
+  margin: auto;
+  background: #fcfbfb;
+  box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 0px;
+}
+
+/* ------------ 4SA Method -------------  */
+
+/* .midcontainer {
+  border: 1px solid rgb(145, 31, 31);
+} */
+
+.intro {
+  border: 1px solid gray;
+  width: 90%;
+  height: 43px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  justify-content: flex-start;
+  background: #f2f2f2;
+}
+.intro > p {
+  margin-top: 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.09em;
+  margin-left: 10px;
+  color: #000000;
+}
+
+.description-1 {
+  /* border: 1px solid red; */
+  width: 85%;
+  height: 67px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.description-1 > p {
+  text-align: start;
+  margin-left: 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+
+  color: #000000;
+}
+
+.seemore {
+  /* border: 1px solid rgb(9, 128, 31); */
+  position: absolute;
+  width: 71px;
+  height: 29px;
+  margin-top: 20px;
+  left: 75%;
+  top: 76%;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+
+  color: #606161;
+}
+
+.intro-2 {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  height: 43px;
+  background: #fcfcfc;
+  border: 1px solid #d9d7d7;
+  display: flex;
+
+  justify-content: flex-start;
+}
+
+.intro-2 > p {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  text-align: start;
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+
+  color: #000000;
+}
+
+.description-2 {
+  width: 85%;
+  height: 67px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.description-2 > p {
+  text-align: start;
+  margin-left: 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+
+  color: #000000;
+}
+
+.seemore1 {
+  width: 71px;
+  height: 29px;
+  margin-top: 30px;
+  position: absolute;
+  top: 86%;
+  left: 75%;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+
+  color: #606161;
+}
+
+.example {
+  width: 80%;
+  margin: auto;
+  margin-top: 80px;
+  background: #fcfcfc;
+  border: 1px solid #d9d7d7;
+}
+
+.example > h1 {
+  text-align: start;
+  padding: 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  margin-left: 10px;
+  color: #000000;
+}
+
+.example2 {
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  background: #fcfcfc;
+  /* border: 1px solid #D9D7D7; */
+}
+
+.example2 > h1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: #000000;
 }

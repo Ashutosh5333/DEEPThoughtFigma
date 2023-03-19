@@ -1,0 +1,63 @@
+
+.customdescription{
+    border: 1px solid red;
+  }
+  
+  .Heading-top {
+    height: 50px;
+    background: #000000;
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .Heading-top > p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 10px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+  }
+  
+  .elipis {
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  .elipis > p {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: -3px;
+    padding: 5px;
+  }
+  
+  .Description {
+    width: 90%;
+    margin: auto;
+    background: #fdfdfd;
+    border-radius: 15p;
+  }
+  
+  .Description > p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    text-align: start;
+    color: #000000;
+    margin-top: 20px;
+  }
+  
+  .Description > p span {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
