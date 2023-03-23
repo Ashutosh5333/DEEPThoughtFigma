@@ -82,3 +82,12 @@ export const data = [
         "publishedAt": 1672893847792
         }
 ]
+
+ export const task1 = {
+        "asset_id": 18883,
+        "asset_title": "Technical Project Management",
+        "asset_description": "Story of Alignment Scope of Agility Specific Accountable  Staggering Approach",
+        "asset_content": " https://www.youtube.com/embed/TiMRwri1xJ8",
+        "asset_type": "display_asset",
+        "asset_content_type": "video"
+ }

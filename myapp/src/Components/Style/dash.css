@@ -1,12 +1,11 @@
-/* .Container-Dashboard {
-  border: 1px solid red;
-} */
+
 
 .techline {
   height: 42px;
   display: flex;
   justify-content: space-between;
   gap: 10px;
+  padding: 10px;
 }
 
 .left {
@@ -38,12 +37,15 @@
   padding: 10px 20px;
 }
 
+ /* ------------ Explore ----------- */
+
 .Exploredata {
-  /* border: 1px solid black; */
+
   background: #e9ecef;
   margin-top: 20px;
   border-radius: 5px;
   height: 135px;
+  padding: 5px;
 }
 
 .mid {
@@ -63,7 +65,7 @@
   letter-spacing: 0.02em;
   color: #000000;
 }
-
+    /* ------------ Explore description  ----------- */
 .bottom {
   width: 95%;
   margin: auto;
@@ -82,10 +84,10 @@
   color: #000000;
 }
 
-/* ------  Mid  ----- */
+/* ------  Mid  box  ----- */
 
 .technical-project {
-  /* border: 1px solid brown; */
+ 
   display: flex;
   justify-content: space-between;
 }
@@ -124,11 +126,12 @@
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 22px;
   margin-top: 10px;
   letter-spacing: 0.02em;
   color: #ffffff;
+  padding: 4px;
 }
 
 .elipis {
@@ -179,8 +182,9 @@
   height: 291px;
 }
 
+/* ----------- RIght Threa A ----------- */
+
 .thred {
-  /* border: 1px solid gray; */
   margin-top: 20px;
   height: 40px;
   background: rgba(254, 255, 192, 0.2);
@@ -196,7 +200,9 @@
 }
 
 .arrow {
-  margin: auto;
+   position: relative;
+   left: 0;
+    top: 10px;
 }
 
 .thread {
@@ -206,26 +212,25 @@
 /* ---------------------------- */
 
 .SubHeadings {
-  /* border: 1px solid red; */
   width: 100%;
   display: flex;
   justify-content: space-around;
   margin-top: 20px;
+  gap: 10px;
 }
 
 .sub {
-  height: 35px;
-  width: 200px;
+  height: 40px;
+  width: 100%;
   background: #ffffff;
   opacity: 0.5;
   box-shadow: 1px 3px 8px rgba(18, 17, 17, 0.25);
   border-radius: 5px;
+  padding: 10px 20px;
 }
 
 .sub > h1 {
   text-align: start;
-  margin-bottom: 40px;
-  margin-left: 10px;
   font-family: 'Open Sans';
 font-style: normal;
 font-weight: 400;
@@ -233,7 +238,6 @@ font-size: 12px;
 line-height: 16px;
 letter-spacing: .5px;
 margin-left: 10px;
-margin-top: 20px;
 color: #000000;
 }
 
@@ -241,25 +245,31 @@ color: #000000;
   width: 100%;
   background: #ffffff;
   height: 70px;
-  opacity: 0.5;
-  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.25);
-  border-radius: 5px;
-  background: #ffffff;
+  background: #FFFFFF;
+opacity: 0.5;
+box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+padding: 10px 30px;
+text-align: start;
 }
 
 .Enter > h1 {
   text-align: start;
-  margin-left: 8px;
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+
+color: #6C757D;
 }
 
-/* ----------------- */
+/* -------- Icons  --------- */
 
 .Icons {
-  /* border: 3px solid black; */
   display: flex;
   justify-content: space-evenly;
-  gap: 10px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .iconshome {
@@ -273,13 +283,11 @@ color: #000000;
 }
 
 .box {
-  /* border: 1px solid gray; */
   display: flex;
   justify-content: space-between;
   background: #ffffff;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
-  gap: 10px;
 }
 
 .box > div > h1 {
@@ -294,7 +302,6 @@ color: #000000;
 }
 
 .subbut {
-  /* border: 1px solid red; */
   display: flex;
   justify-content: flex-start;
   margin-left: 20px;
@@ -306,8 +313,8 @@ color: #000000;
   border-radius: 10px;
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
+  font-weight: 600;
+  font-size: 14px;
   line-height: 14px;
   padding: 10px 20px;
   color: #ffffff;
@@ -316,23 +323,21 @@ color: #000000;
 /* ------------ */
 
 .summary {
-  /* border: 1px solid red; */
   width: 90%;
   height: 108px;
   margin: auto;
   margin-top: 20px;
   background: #ffffff;
   opacity: 0.5;
-  border: 0.1px solid #333333;
+
   box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 }
 
 .summarytext {
-  height: 25px;
+  height: 30px;
   background: rgba(0, 0, 0, 0.05);
   opacity: 0.8;
-
   box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 }
@@ -346,15 +351,15 @@ color: #000000;
   text-align: start;
   color: #000000;
   margin-left: 10px;
-  margin-top: 5px;
+ 
 }
 
 .textenter {
   background: #ffffff;
   opacity: 0.5;
-  height: 75px;
+  height: 78px;
   box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.25);
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .textenter > h1 {
@@ -365,26 +370,24 @@ color: #000000;
 /* --------------- second line -----------------  */
 
 .Titlecon {
-  /* border: 1px solid red; */
   margin-top: 10px;
   height: 400px;
 }
 
 .Titlecon > h1 {
   text-align: start;
-  margin-left: 15px;
+  margin-left: 20px;
   margin-top: 20px;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 22px;
   letter-spacing: 0.02em;
   color: #000000;
 }
 
 .title {
-  /* border: 1px solid gray; */
   width: 90%;
   height: 43px;
   margin: auto;
@@ -395,7 +398,6 @@ color: #000000;
 }
 
 .title-2 {
-  /* border: 1px solid gray; */
   width: 90%;
   height: 82px;
   margin: auto;
@@ -406,16 +408,16 @@ color: #000000;
 }
 
 .filetitle {
-  /* border: 1px solid red; */
   height: 38px;
 }
 
 .filechild {
-  /* border: 1px solid black; */
   width: 90%;
   margin: auto;
   display: flex;
   justify-content: space-around;
+  gap:5px;
+ padding: 10px;
 }
 
 .filechild > p {
@@ -425,17 +427,14 @@ color: #000000;
   font-size: 12px;
   line-height: 18px;
   letter-spacing: 0.02em;
-
   color: #616161;
 }
 
 .paragrapgh {
-  /* border: 1px solid red; */
   height: 40px;
 }
 
 .paragraphchild {
-  /* border: 1px solid black; */
   width: 90%;
   margin: auto;
   display: flex;
@@ -450,10 +449,15 @@ color: #000000;
   line-height: 18px;
   letter-spacing: 0.02em;
   color: #616161;
+ 
+}
+.textparagraph{
+  background: #EBEBEB;
+  padding: 5px;
+  color: #fff;
 }
 
 .lastTitle {
-  /* border: 1px solid red; */
   width: 90%;
   height: 142px;
   margin: auto;
@@ -462,11 +466,9 @@ color: #000000;
   border-radius: 0px;
 }
 
+
 /* ------------ 4SA Method -------------  */
 
-/* .midcontainer {
-  border: 1px solid rgb(145, 31, 31);
-} */
 
 .intro {
   border: 1px solid gray;
@@ -492,7 +494,7 @@ color: #000000;
 }
 
 .description-1 {
-  /* border: 1px solid red; */
+ 
   width: 85%;
   height: 67px;
   margin: auto;
@@ -513,7 +515,7 @@ color: #000000;
 }
 
 .seemore {
-  /* border: 1px solid rgb(9, 128, 31); */
+  
   position: absolute;
   width: 71px;
   height: 29px;
@@ -597,7 +599,7 @@ color: #000000;
 .example {
   width: 80%;
   margin: auto;
-  margin-top: 80px;
+  margin-top: 40px;
   background: #fcfcfc;
   border: 1px solid #d9d7d7;
 }
@@ -618,9 +620,9 @@ color: #000000;
 .example2 {
   width: 80%;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 20px;
   background: #fcfcfc;
-  /* border: 1px solid #D9D7D7; */
+  padding: 5px;
 }
 
 .example2 > h1 {

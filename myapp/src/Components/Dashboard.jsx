@@ -12,11 +12,9 @@ import {BiDotsHorizontalRounded} from "react-icons/bi";
 import { RiMessage2Fill } from "react-icons/ri";
 import { FiChevronDown } from "react-icons/fi";
 import {data} from "./data.js"
- 
-const task = data[0].tasks[0].assets
-// console.log("data",task)
-
-
+ import {task1} from "./data.js"
+ console.log(task1)
+ console.log(task1.asset_title)
 
 const Dashboard = () => {
   return (
@@ -98,6 +96,7 @@ const Dashboard = () => {
             </div>
 
             <div className="SubHeadings">
+
               <div className="subthread">
                 <div className="sub">
                   <h1> Sub thread 1 </h1>
@@ -115,6 +114,7 @@ const Dashboard = () => {
                   <h1> Enter Text here </h1>
                 </div>
               </div>
+
             </div>
 
             <div className="Icons">
@@ -123,9 +123,8 @@ const Dashboard = () => {
                 <RiMessage2Fill className="homecs" />
                 <BsFillQuestionSquareFill className="homecs" />
                 <svg
-                  //  className="homecs"
                   width="25"
-                  height="38"
+                  height="35"
                   viewBox="0 0 20 18"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -240,7 +239,7 @@ const Dashboard = () => {
                         />
                       </svg>
                     </p>
-                    <p> Paragraph </p>
+                    <p className="textparagraph"> Paragraph </p>
                     <p> <BiDotsHorizontalRounded /> </p>
                   </div>
                 </div>
